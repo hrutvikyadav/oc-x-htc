@@ -1,0 +1,4 @@
+(executable
+ (public_name htc_sd)
+ (name main)
+ (libraries htc_sd))
