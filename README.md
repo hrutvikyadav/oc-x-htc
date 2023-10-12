@@ -49,3 +49,6 @@ Same as the usual HTDF recipe except for step 4, where number of tests/examples 
 > NOTE: The HTDF is **orthogonal** for most part, i.e. it stays the same for all forms of data. This will be useful because we can just pick up a form of data, lets say it comes from a customer requirement, and use the known recipes to work on this data.
 
 ---
+![image](https://github.com/hrutvikyadav/oc-x-htc/assets/97113293/cef01a94-a1c4-4ded-a724-2d8020a7f850)
+
+---
