@@ -43,10 +43,15 @@ Fist identify the form of the information in problem domain, then write a *Data 
 
 Example - in case of the *CityName datadef problem*, Pune cannot be broken down into lets say P or u or n because the broken parts make no sense on their own in this *given problem domain*, thats why the information - "Pune" is atomic
 
-## HTDF with user-defined/non primitive data
+### HTDF with user-defined/non primitive data
 
 Same as the usual HTDF recipe except for step 4, where number of tests/examples will vary based on the type of Datadef and at step 5, for non primitive data, template will be available
 > NOTE: The HTDF is **orthogonal** for most part, i.e. it stays the same for all forms of data. This will be useful because we can just pick up a form of data, lets say it comes from a customer requirement, and use the known recipes to work on this data.
+
+## Interval
+
+When the *information* in problem domain is **numbers in a certain range**, use an Interval to represent it in Program
+
 
 ---
 ![image](https://github.com/hrutvikyadav/oc-x-htc/assets/97113293/cef01a94-a1c4-4ded-a724-2d8020a7f850)
