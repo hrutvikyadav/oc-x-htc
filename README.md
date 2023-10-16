@@ -52,6 +52,16 @@ Same as the usual HTDF recipe except for step 4, where number of tests/examples 
 
 When the *information* in problem domain is **numbers in a certain range**, use an Interval to represent it in Program
 
+## Enumeration
+
+When the information to be represented consists of two or more distinct values(*one of types*)
+
+## Itemization
+
+When information consists of multiple distinct values and also atleast one non distinct value \
+Look at **each clause** here and use appropriate template rules for *each piece of data invloved in a clause*
+> Consider when simplifying the template -> *optional* \
+> When unique types appear only once in some mixed data itemization, consider adding a guard clause for that type *without any extra tests*, also if all remaining arms/clauses are of same type then a guard is not needed (as there are no more types left other than the one we are dealing with)
 
 ---
 ![image](https://github.com/hrutvikyadav/oc-x-htc/assets/97113293/cef01a94-a1c4-4ded-a724-2d8020a7f850)
